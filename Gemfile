@@ -8,6 +8,7 @@ gem 'jquery-rails',         '4.1.1'
 gem 'turbolinks',           '2.5.3'
 gem 'jbuilder',             '2.4.1'
 gem 'sdoc',                 '0.4.1', group: :doc
+gem 'bootstrap-sass',       '3.2.0.0'
 
 group :development do
   gem 'web-console', '2.3.0'
