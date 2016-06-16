@@ -20,6 +20,7 @@ $d-purple:    #2A1C36;
 
 html * {
   color: $d-sand;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 header {
@@ -62,6 +63,10 @@ a {
   }
 }
 
+.d-drop {
+  background-color: $d-sand;
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -102,6 +107,7 @@ p {
   font-weight: bold;
   &:hover {
     text-decoration: none;
+    color: currentColor;
   }
 }
 
